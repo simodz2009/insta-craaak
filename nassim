@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .phone-screen img {
+            width: 300px;
+            height: auto;
+        }
+        .login-form {
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-left: 20px;
+        }
+        .logo {
+            width: 175px;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 250px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            width: 270px;
+            padding: 10px;
+            background-color: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .or {
+            margin: 15px 0;
+            color: #999;
+        }
+        .fb-login {
+            color: #385185;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .signup {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .signup a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .download-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .download-btn {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="phone-screen">
+            <img src="C:/Users/dell/a/images/IG.jpeg" alt="Instagram preview" class="phone-img">
+        </div>
+        <div class="login-form">
+            <img src="C:/Users/dell/a/images/instaLogo.png" alt="Instagram logo" class="logo">
+            <input type="text" placeholder="Num. mobile ou e-mail">
+            <input type="password" placeholder="Mot de passe">
+            <button class="login-btn">Connexion</button>
+            <p class="or">OU</p>
+            <a href="#" class="fb-login">Se connecter avec Facebook</a>
+            <p class="signup">Pas de compte ? <a href="#">Inscris-toi</a></p>
+            <div class="download-buttons">
+                <img src="C:/Users/dell/a/images/playStore.png" alt="T�l�charger sur Google Play" class="download-btn">
+                <img src="C:/Users/dell/a/images/getMicrosoft.png" alt="T�l�charger sur Microsoft Store" class="download-btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
